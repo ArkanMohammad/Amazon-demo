@@ -64,16 +64,13 @@ Built to demonstrate **advanced frontend layout mastery**, component-based CSS a
 
 ## 📸 UI Showcase
 
-|:---------------------------:|:--------------------------:|
-## 📸 UI Showcase
-
 | 🖥️ Header & Product Gallery | 🖥️ Product Info & Buy Box |
 | :---: | :---: |
-| <img src="https://github.com/ArkanMohammad/Amazon-demo/blob/main/assets/desktop-preview1.png?raw=true" width="350" /> | <img src="https://github.com/ArkanMohammad/Amazon-demo/blob/main/assets/desktop-preview2.png?raw=true" width="350"> /> |
+| <img src="https://raw.githubusercontent.com/ArkanMohammad/Amazon-demo/main/assets/desktop-preview1.png" width="350" /> | <img src="https://raw.githubusercontent.com/ArkanMohammad/Amazon-demo/main/assets/desktop-preview2.png" width="350" /> |
 
 | 🛒 Related Products Section |
 | :---: |
-| <img src="https://github.com/ArkanMohammad/Amazon-demo/blob/main/assets/related-products.png?raw=true" width="350" /> |
+| <img src="https://raw.githubusercontent.com/ArkanMohammad/Amazon-demo/main/assets/related-products.png" width="500" /> |
 
 ---
 
