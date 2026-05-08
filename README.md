@@ -66,11 +66,15 @@ Built to demonstrate **advanced frontend layout mastery**, component-based CSS a
 
 | 🖥️ Header & Product Gallery | 🖥️ Product Info & Buy Box |
 | :---: | :---: |
-| <img src="https://raw.githubusercontent.com/ArkanMohammad/Amazon-demo/refs/heads/main/assets/desktop-preview1.png" /> | <img src="./assets/desktop-preview2.png" /> |
-
+<div align="center">
+  <img src="assets/desktop-preview1.png" width="45%" style="margin: 5px; border-radius: 8px;" alt="Header & Product Gallery">
+  <img src="assets/desktop-preview2.png" width="45%" style="margin: 5px; border-radius: 8px;" alt="Product Info & Buy Box">
+</div>
+<br>
 | 🛒 Related Products Section |
-| :---: |
-| <img src="./assets/related-products.png" /> |
+<div align="center">
+  <img src="assets/related-products.png" width="70%" style="margin: 10px; border-radius: 8px;" alt="Related Products Section">
+</div>
 
 ---
 
