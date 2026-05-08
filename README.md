@@ -66,7 +66,7 @@ Built to demonstrate **advanced frontend layout mastery**, component-based CSS a
 
 | 🖥️ Header & Product Gallery | 🖥️ Product Info & Buy Box |
 | :---: | :---: |
-| <img src="./assets/desktop-preview1.png" /> | <img src="./assets/desktop-preview2.png" /> |
+| <img src="assets/desktop-preview1.png" /> | <img src="./assets/desktop-preview2.png" /> |
 
 | 🛒 Related Products Section |
 | :---: |
