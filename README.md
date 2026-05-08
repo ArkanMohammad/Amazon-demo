@@ -67,11 +67,11 @@ Built to demonstrate **advanced frontend layout mastery**, component-based CSS a
 |:---------------------------:|:--------------------------:|
 | 🖥️ Header & Product Gallery | 🖥️ Product Info & Buy Box |
 |:---------------------------:|:--------------------------:|
-| <img src="https://raw.githubusercontent.com/ArkanMohammad/Amazon-demo/main/assets/desktop-preview1.png" width="350" /> | <img src="https://raw.githubusercontent.com/ArkanMohammad/Amazon-demo/main/assets/desktop-preview2.png" width="350" /> |
+| <img src="./assets/desktop-preview1.png" width="350" /> | <img src="./assets/desktop-preview2.png" width="350" /> |
 
 | 🛒 Related Products Section |
 |:---------------------------:|
-| <img src="https://raw.githubusercontent.com/ArkanMohammad/Amazon-demo/main/assets/related-products.png" width="500" /> |
+| <img src="./assets/related-products.png" width="500" /> |
 
 ---
 
