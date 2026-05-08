@@ -64,7 +64,8 @@ Built to demonstrate **advanced frontend layout mastery**, component-based CSS a
 
 ## 📸 UI Showcase
 
-![Header & Product Gallery](assets/desktop-preview1.png)
+![Header & Product Gallery]<img width="956" height="498" alt="desktop-preview1 png" src="https://github.com/user-attachments/assets/81916456-d8d7-4dd8-89f5-40a9ec13abf9" />
+
 
 ![Product Info & Buy Box](assets/desktop-preview2.png)
 
