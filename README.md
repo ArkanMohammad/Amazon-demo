@@ -22,14 +22,14 @@ Built to demonstrate **advanced frontend layout mastery**, component-based CSS a
 
 | Category | Implementation Details |
 |----------|----------------------|
-| 🎯 **1:1 Visual Fidelity** | Precise replication of Amazon's typography, spacing, color palette, and component hierarchy |
+|  **1:1 Visual Fidelity** | Precise replication of Amazon's desktop typography, spacing, color palette, and component hierarchy |
 | 🧱 **Modular CSS Architecture** | Component-scoped stylesheets: `header.css`, `product-page.css`, `buy-box.css`, `footer.css`, etc. |
-| 📱 **Responsive Layout System** | Mobile-first breakpoints with fluid grids using `Flexbox`, `CSS Grid`, and `clamp()` |
-| 🖼️ **Interactive Product Gallery** | Thumbnail navigation + main image display with hover states and focus accessibility |
+| 🖥️ **Desktop-Optimized Layout** | Fixed-width container with precise grid alignment using `Flexbox`, `CSS Grid`, and `clamp()` for consistent scaling |
+| ️ **Interactive Product Gallery** | Thumbnail navigation + main image display with hover states and focus accessibility |
 | 🛒 **Full Buy-Box Component** | Dynamic price display, quantity selector, shipping info, and action buttons styled to spec |
 | 🔄 **Related Products Carousel** | Horizontally scrollable product cards with ratings, Prime badges, and sponsored labels |
 | ♿ **Semantic & Accessible Markup** | ARIA-friendly structure, logical heading hierarchy, keyboard-navigable elements |
-| ⚡ **Zero JavaScript Dependency** | Pure CSS interactions (hover, focus, scroll) for instant load and maximum compatibility |
+|  **Zero JavaScript Dependency** | Pure CSS interactions (hover, focus, scroll) for instant load and maximum compatibility |
 
 ---
 
@@ -64,17 +64,13 @@ Built to demonstrate **advanced frontend layout mastery**, component-based CSS a
 
 ## 📸 UI Showcase
 
-| 🖥️ Desktop View | 
-|:--------------:|:-------------:|
-| ![Desktop](assets/desktop-preview.png) |
+| 🖥️ Header & Product Gallery | 🖥️ Product Info & Buy Box |
+|:---------------------------:|:--------------------------:|
+| ![Desktop View 1](assets/desktop-preview1.png) | ![Desktop View 2](assets/desktop-preview2.png) |
 
-| 🔍 Component Highlights |
-|:----------------------:|
-| ![Header + Nav](assets/header-component.png) |
-| ![Product Gallery + Buy Box](assets/product-grid.png) |
-| ![Related Products Carousel](assets/carousel.png) |
-
-> 💡 *Replace placeholder paths with actual screenshots. Recommended: `1920×1080` Desktop, `375×812` Mobile.*
+| 🛒 Related Products Section|
+|:----------------------------:|
+| ![Related Products](assets/related-products.png) |
 
 ---
 
