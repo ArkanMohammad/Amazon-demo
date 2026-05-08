@@ -1,0 +1,110 @@
+/*----------------------------ADS BANNER ------------------------------*/
+.ads-banner{
+    width:100%;
+    height: 56px;
+    background-color: #ffffff;
+    border: 1px solid rgb(186, 179, 179);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:20px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.ads-banner :active,.images img :active{
+    border: 1px solid rgb(36, 80, 226);
+}
+.left-side-text{
+  margin-left: 50px;
+  font-size: 14px;
+  font-weight: 700;
+  gap:10px;
+}
+.right-side-banner{
+  display: inline-block;
+  position: relative;
+}
+#ads-img1{
+  height:48px;
+  width: 102px;
+  margin-bottom: -6px;
+  margin-left: -240px;
+}
+.images{
+  display: flex;
+  gap:20px;
+  margin-left: -320px;
+  cursor: pointer;
+}
+.images img{
+  height:45px;
+  margin-bottom: -6px;
+}
+.tongateLogo{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 150;
+  gap:2px;
+  margin-left: -580px;
+  margin-top:20px;
+}
+#tongateLogoIMG{
+  width: 30px ;
+  height: 30px;
+  margin-top: 5px;
+  z-index: 10;
+}
+#tongateLogo-txt-IMG{
+  width: 120px ;
+  height: 50px ;
+  zoom:50%;
+  margin-top: -20px;
+}
+.shop-tongate{
+  display: block;
+  position: absolute;
+  z-index: 10;
+  width:120;
+  color:#3a8391;
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: -150px;
+  margin-top: -30px;
+}
+.shop-tongate :hover{
+  text-decoration: underline;
+}
+.sponspred-i{
+  display: flex;
+  justify-content: flex-end;
+  width: 100;
+  margin-top:5px;
+  margin-right: 5px;
+  gap:-5px
+}
+.sponspred-i:hover .sponspred {
+  color : rgb(64, 63, 63);
+  transition: color 0.3s ease; 
+}
+.sponspred-i:hover .alert-icon {
+  background-color: rgb(64, 63, 63);
+  transition: color 0.3s ease; 
+}
+.sponspred{
+  font-size: 11px;
+  color:#6d6d6d;
+  margin-right:5px;
+}
+.alert-icon{
+  width: 11.5px;
+  height: 11.5px;
+  background-color: #a8a7a7; /* gray */
+  color: #ffffff; /* white ! */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 9px;
+}

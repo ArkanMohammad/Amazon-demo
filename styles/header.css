@@ -1,0 +1,263 @@
+@import url('https://fonts.cdnfonts.com/css/amazon-ember');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Amazon Ember', sans-serif;
+}
+section {
+  all: unset;
+  display: contents;
+}
+/*----------------------------- HEADER ---------------------------------*/
+header{
+    display: flex;
+    position: sticky;
+    width: 100%;
+    height: 100px;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+}
+/*------------------------ TOP NAV OF HEADER --------------------------*/
+.nav-top{
+    background-color: #121921;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:30px;
+    padding: 10px 20px;
+    color: white;
+}
+/*------------------------ LEFT NAV OF HEADER --------------------------*/
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+.nav-logo{
+    margin-left:-5px;
+    margin-bottom:-5px;
+}
+.nav-logo img{
+    cursor: pointer;
+    display:block;
+    width:114px;
+    height:50px;
+    zoom: 97%;
+}
+.nav-logo:hover{
+      border: 1px solid white;
+      border-radius: 2px;
+}
+.nav-address {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    margin-left: 10px;
+    margin-right: -10px;
+}
+.nav-address:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+}
+.nav-address img{
+    zoom:68%;
+    margin-right: 3px;
+    margin-top:15px;
+}
+.add-text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10x; /* space between rows */
+}
+.top-text{
+    color: rgb(204, 204, 204);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14x;
+    width: 55px;
+}
+.bottom-text{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 15px;
+}
+/*----------------- THE CENTER NAV OF HEADER (Search) ------------------*/
+.nav-center {
+    flex: 1;
+    max-width: 800px;
+    display: flex;
+    justify-content: left;
+    margin-left:-5px;
+}
+.nav-search {
+    display: flex;
+    width: 636px;
+    height: 40px;
+    border-radius: 4px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.nav-search :active {
+    outline: none; /* Hide default browser outline */
+    border: 1px solid #febd69;
+    border-radius: 2px;
+}
+.search-dropdown {
+    background-color: #f3f3f3;
+    color: #555;
+    border: none;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #cdcdcd;
+    overflow: hidden;
+    cursor: pointer;
+    width: 50px;
+    height: 40px;
+}
+.search-dropdown:hover {
+      background: #e6e6e6d7;
+      color:black;
+}
+.search-dropdown:active {
+    border: 3px solid #febd69;
+}
+.search-input {
+    width: 100%;
+    font-size: 15px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+}
+.search-input:hover{
+      border: 1px solid #febd69;
+      border-radius: 2px;
+}
+.search-icon {
+    background-color: #febd69;
+    color: #333;
+    padding: 0 10px;/*go to left 15px*/
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    width: 47px;
+    height: 40px;
+}
+.search-icon:hover {
+      background: #f3a847;
+}
+/*------------------------ RIGHT NAV OF HEADER --------------------------*/
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-language, .nav-signin, .nav-return, .nav-cart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid transparent;
+}
+.nav-language {
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+    padding-top: 15px;
+}
+.nav-language img {
+   height: 14px;
+   width: 19px;
+}
+.EN-text{
+    font-size: 14px;
+    font-weight:500;
+}
+.nav-language:hover, .nav-signin:hover, .nav-return:hover, .nav-cart:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+}
+.nav-signin .add-small, .nav-return .add-small {
+    font-size: 12px;
+    color: #ffffff;
+}
+.nav-signin .add-big, .nav-return .add-big {
+    font-size: 13.5px;
+    font-weight: 700;
+}
+.nav-cart {
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 3px;
+}
+.cart-icon {
+  width: 28px;
+  height: 28px;
+  fill: none;
+  stroke: white;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  zoom:120%;
+  display: inline-block;
+}
+.cart-count {
+    font-weight: 700;
+    color: #f08804;
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-left:-22px;
+    display: flex;
+}
+.cart-text {
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 5px;
+}
+/*-------------------- THE SECOND NAV OF HEADER ------------------------*/
+/*-------------------------- NAV BUTTONS--------------------------------*/
+.nav-buttons{
+    background-color: #232f3f;  
+    height: 40px;
+    width :100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    z-index: 10;
+}
+.nav-buttons i{
+    zoom:130%;
+}
+.all-btn{
+    margin-left: 10px;
+}
+.nav-item {
+    background-color: #232f3f;  
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 8px;
+    height:40px;
+    width:fit-content;
+}
+.nav-item:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+}
+.all-btn {
+    font-weight: 700;
+}

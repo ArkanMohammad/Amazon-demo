@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/amazon-ember" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />    
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/ads-banner.css">
+    <link rel="stylesheet" href="styles/product-page.css">
+    <link rel="stylesheet" href="styles/product-left-details.css">
+    <link rel="stylesheet" href="styles/product-center-details.css">
+    <link rel="stylesheet" href="styles/product-right-details.css">
+    <link rel="stylesheet" href="styles/related-products.css">
+    <link rel="stylesheet" href="styles/back-to-top.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <title>My Amazon Website - Arkan Mohamad</title>
+</head>
+<body>
+<!---------------------------------------------------------------------->
+<!------------------------------ Header -------------------------------->
+<!---------------------------------------------------------------------->    
+    <header id="header">
+        <nav class="navbar">
+<!---------------------------------------------------------------------->
+<!------------------------ TOP NAV OF HEADER --------------------------->
+<!---------------------------------------------------------------------->
+            <!-- The top navagation row-->
+            <div class="nav-top">
+<!---------------------------------------------------------------------->
+<!------------------------ LEFT NAV OF HEADER -------------------------->
+<!---------------------------------------------------------------------->
+                <!-- The left nav of the fill searching--> 
+                <div class="nav-left">
+                    <div class="nav-logo">
+                        <img src="assets/amazon-logo.png">
+                    </div>
+                    <div class="nav-address">
+                            <img src="assets/location.png">
+                            <div class="add-text">
+                                <span class="top-text">Deliver to</span>
+                                <span class="bottom-text">Israel</span>
+                            </div>               
+                    </div>
+                </div>
+<!---------------------------------------------------------------------->
+<!--------------- THE CENTER NAV OF HEADER (Search) -------------------->
+<!---------------------------------------------------------------------->
+
+                <div class="nav-center">
+                    <div class="nav-search">
+                        <select class="search-dropdown" id="search-dropdown">
+                            <option value="all" data-full="All Departments" data-short="All">All</option>
+                            <option value="electronics">Electronics</option>
+                            <option value="books">Books</option>
+                            <option value="fashion">Fashion</option>
+                        </select>
+                        <input type="text" class="search-input" placeholder="Search Amazon">
+                        <div class="search-icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+                </div>
+<!---------------------------------------------------------------------->
+<!----------------------- RIGHT NAV OF HEADER -------------------------->
+<!---------------------------------------------------------------------->
+                <div class="nav-right">
+                    <div class="nav-language">
+                        <img src="https://flagcdn.com/w20/us.png" alt="Flag">
+                        <span class="EN-text">EN</span>
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                    <div class="nav-signin">
+                        <span class="add-small">Hello, sign in</span>
+                        <span class="add-big">Account & Lists<i class="fa-solid fa-caret-down"></i></span>
+                    </div>
+                    <div class="nav-return">
+                        <span class="add-small">Returns</span>
+                        <span class="add-big">& Orders</span>
+                    </div>
+                    <div class="nav-cart">
+                        <svg class="cart-icon" viewBox="0 0 24 24">
+                        <path d="M2 3h2l4 12h11l4-8H"></path>
+                        <circle cx="9" cy="20" r="1"></circle>
+                        <circle cx="17" cy="20" r="1"></circle>
+                        </svg>
+                        <span class="cart-count">0</span>
+                        <span class="cart-text">Cart</span>
+                    </div>
+                </div>
+            </div>
+<!---------------------------------------------------------------------->
+<!-------------------- THE SECOND NAV OF HEADER ------------------------>
+<!-------------------------- NAV BUTTONS-------------------------------->
+<!---------------------------------------------------------------------->
+            <!--the right nav of the fill searching-->
+            <div class="nav-buttons">
+                <button href="#" class="nav-item all-btn">
+                    <i class="fa-solid fa-bars"></i> All
+                </button>
+                <button href="#" class="nav-item">Today's Deals</button>
+                <button href="#" class="nav-item">Gift Cards</button>
+                <button href="#" class="nav-item">Sell</button>
+                <button href="#" class="nav-item">Registry</button>
+                <button href="#" class="nav-item">Prime Video</button>
+                <button href="#" class="nav-item">Customer Service</button>
+            </div>
+        </nav>
+    </header> 
+<!---------------------------------------------------------------------->
+<!-----------------------------ADS BANNER ------------------------------>
+<!----------------------------------------------------------------------> 
+<main>
+<section class="ads-banner">
+    <span class="left-side-text">Magnetic Stand + 2 Front Frames for S26 Ultra Case</span>
+         <img src=" assets/ads_img1.png" id="ads-img1">
+    <div class="images">
+        <img src="assets/ads_img2.jpg" id="ads-img2">
+        <img src="assets/ads_img3.jpg" id="ads-img3">
+        <img src="assets/ads_img4.jpg" id="ads-img4">
+    </div>
+    <div class="right-side-banner">
+        <section class="tongateLogo">
+            <img src="assets/TONGATE-logo.png" id="tongateLogoIMG">
+            <img src="assets/TONGATE-logo-txt.png" id="tongateLogo-txt-IMG">
+        </section>
+        <span class="shop-tongate">Shop TONGATE</span>
+        <section class="sponspred-i">
+            <div class="sponspred">Sponsored</div>
+            <div class="alert-icon">i</div>
+        </section>
+    </div>
+</section>
+<!---------------------------------------------------------------------->
+<!-------------------------THE PRODUCT SECTION ------------------------->
+<!----------------------------------------------------------------------> 
+<!-----------------------SHOP LINK OF THE PRODUCT---------------------->
+<div id="containorShopLink">
+    <section class="shopLinkProduct">
+            <span class="shop-link" id="firstTXT">Cell Phones & Accessories</span>
+            <span class="shop-link"> > </span>
+            <span class="shop-link" id="secondTXT">Cases, Holsters & Sleeves</span>
+            <span class="shop-link"> > </span>
+            <span class="shop-link" id="thirdTXT">Basec Cases</span>
+    </section>
+</div>
+<!---------------------------------------------------------------------->
+<section class="product-page">
+<!---------------------------------------------------------------------->
+<!-------------------- LEFT SIDE OF GRID ------------------------------>
+<!---------------------------------------------------------------------->
+    <section class="containor of images">
+        <!-- LEFT: images -->
+        <section class="gallery">
+            <section class="imagesOfProduct">
+                <img src="assets/img1.jpg" id="img1">
+                <img src="assets/img2.jpg" id="img2">
+                <img src="assets/img3.jpg" id="img3">
+                <img src="assets/img4.jpg" id="img4">
+                <img src="assets/img5.jpg" id="img5">
+                <img src="assets/img6.jpg" id="img6">
+                <img src="assets/img7.jpg" id="img7">
+            </section>
+        
+            <article class="bigPhoto">
+                <button class="share-btn" aria-label="Share">
+                <svg class="share-icon" viewBox="0 0 24 24">
+                    <!-- box -->
+                    <path d="M6 10v8h12v-8" />
+                    <!-- inner horizontal lines -->
+                    <path d="M6 10h3" />
+                    <path d="M15 10h3" />
+                    <!-- arrow -->
+                    <path d="M12 12V3" />
+                    <path d="M8.5 6.5L12 3l3.5 3.5" />
+                </svg>
+                </button>
+                <img src="assets/main.jpg" id="mainPIC">
+                <section class="full-view">
+                    <a href="#">Click to see full view</a>
+                </section>
+            </article>
+        </section>
+    </section>
+<!---------------------------------------------------------------------->
+<!-------------------- CENTER SIDE OF GRID ------------------------------>
+<!---------------------------------------------------------------------->
+    <section class="containor of details">
+            <!-- CENTER: information of the product -->
+        <article class="details">
+                <h1>Designed for Samsung S26 Ultra Case, 
+                    Samsung S26 Ultra Case Wallet Compatible
+                    with MagSafe, PU Samsung S26 Ultra Case
+                    with Card Holder for Women Men, Anti-Slip
+                    & Shock Absorption(Black)</h1>
+                <div class="Brand-Generic-TXT">Brand: Generic</div>
+                <div class="rating">
+                    <span class="rating4_7">4.7</span>     
+                    <span class="stars">★★★★★</span>
+                    <!-- for more details ▾ -->
+                    <div class="chevron"> </div>
+                    <span class="review-count">(5)</span>
+                </div>
+            <br>
+            <p class="borderHere"></p>
+            <div class="priceFirst"><br>
+                    <span class="price-before">$</span><span class="price-center">22</span><span class="price-left">99</span>
+            </div>
+                <div class="shipping-info">
+                    <span class="infoTXT">No Import Charges & $17.66 Shipping to Israel</span>     
+                    <span class="detailsTXT"> Details </span>     
+                    <!-- for more details ▾ -->
+                    <div class="chevron"></div>
+                </div> 
+            <span class="colorTXT">Color: </span>
+            <span class="BlackTXT">Black</span>
+            <!-- present the different colors of covers-->
+            <section class="colorsCovers">
+                <button class="option active">
+                    <img src="assets/case-black.jpg" alt="Black Case">
+                    <span class="price">$22.99</span>
+                </button>
+                <button class="option">
+                    <img src="assets/case-gold.jpg" alt="Gold Case">
+                    <span class="price">$22.99</span>
+                </button>
+                <button class="option">
+                    <img src="assets/case-blue.jpg" alt="Blue Case">
+                    <span class="price">$22.99</span>
+                </button>
+                <button class="option">
+                    <img src="assets/case-green.jpg" alt="Green Case">
+                    <span class="price">$22.99</span>
+                </button>
+                <button class="option">
+                    <img src="assets/case-orange.jpg" alt="Orange Case">
+                    <span class="price">$22.99</span>
+            </button>
+            </section>
+            <span class="sizeTxt">Size: </span>
+            <span class="phoneType">Galaxy S26 Ultra</span>
+        <!-- adding t table that txplain all the details-->
+            <table class = "table1details">
+                <tr>
+                    <th>Brand</th>
+                    <td>Generic</td>
+                </tr>
+                <tr>
+                    <th>Compatible Phone<br>Models</th>
+                    <td>Galaxy S26 Ultra</td>
+                </tr>
+                <tr>
+                    <th>Color</th>
+                    <td>Black</td>
+                </tr>
+                <tr>
+                    <th>Material</th>
+                    <td>Microfiber</td>
+                </tr>
+                <tr>
+                    <th>Pattern</th>
+                    <td>Solid</td>
+                </tr>
+            </table>
+            <hr>
+        <!------------------------------------------------------------------------>
+        <!--more information about the product-->
+            <h2>About this item</h2>
+            <ul>
+                <li>
+                    1. Stylish Design and materials: This case has a good and smooth touch in
+                    the back. The knitted fabric design gives it the ability to be anti-slip and
+                    not to be dirty easily. It looks classic and matches everywhere you go.
+                </li>
+
+                <li>
+                    2. Wallet in the Back: The case will come with a card holder in the back.
+                    We use a strongly magnetic ring to be sure that the case will stick on the
+                    back well. It is very convenient for you to carry any profitable or bank
+                    credit card with you anytime.
+                </li>
+
+                <li>
+                    3. Specific manufacture in detail: Every step for manufacturing will be
+                    checked three times to be sure all ports will match phone itself nicely. And
+                    the case outing of the line will be a nice and subtle item to arrrive at the
+                    customer. The case is also proper for businessmen.
+                </li>
+
+                <li>
+                    4. Full protection for mobile: The camera part and the body side will be
+                    protected by the little high part of the case. The soft TPU sides of the case
+                    and the four corners will absorp the shock from the daily using. It is
+                    enough for you to protect your mobile daily.
+                </li>
+
+                <li>
+                    5. Customer Service: If you have any problem or confusion, you can
+                    contact us freely and we will response to you as quickly as possbile. We
+                    will try our best to offer better service and item for all customers.
+                </li>
+            </ul>
+            <span class="seeMoreIcon">></span>
+        <section class="details-link">
+                <a href="#">See more product details</a>    
+            <br>
+            </section>
+            <span class="flagIcon">⚑</span>
+            <section class="report-link">
+            <a href="#">Report an issue with this product or seller</a>
+            </section>       
+        <h3>Consider a similar item</h3>
+        <article class="similar-Product">
+            <img src="/assets/case.jpg" alt="Phone Case">
+
+            <section>
+                <a href="#" class="product-title">
+                    Spigen for Galaxy S26 Ultra Case, Liquid Air MagFit
+                    [Military-Grade Protection] [Compatible with MagSafe/Fast Wireless Charging]
+                    - Matte Black
+                </a>
+            </section>
+        </article>
+            <div class="rating1">
+                <span class="stars1">★★★★☆</span>
+                <!-- for more details ▾ -->
+                <span class="review-count1">(428)</span>
+                <br>
+                <span class="priceProduct1">$18.99</span>
+                <br>
+                <svg class="leaf-svg" viewBox="0 0 24 24">
+                    <path d="M20 3C12 3 5 8 5 15c0 3 2 6 5 6 7 0 12-7 12-20z"/>
+                    <path d="M7 17c3-1 6-4 9-7"/>
+                </svg>
+                <span class="feature1">1 sustainability feature</span>
+                <br>
+                <br>
+            </div>
+        </article>
+    </section>
+<!---------------------------------------------------------------------->
+<!-------------------- RIGHT SIDE OF GRID ------------------------------>
+<!---------------------------------------------------------------------->
+    <section class="containor of card">
+        <!-- RIGHT: buy box -->
+        <article class="buy-box">
+            <div class="priceProduct">
+                <span class="price-before">$</span><span class="price-center">22</span><span class="price-left">99</span>
+            </div>
+            <div class="shipping-info">
+                <span class="infoTXT">No Import Charges & $17.66 Shipping to Israel</span>     
+                <span class="detailsTXT"> Details </span>     
+                <!-- for more details ▾ -->
+                <div class="chevron"></div>
+                <br>
+                <!--FREE delivery Wednesday, June 17 to Israel on eligible orders over $49-->
+                <span class="sentenceP1">FREE delivery </span>
+                <span class="sentenceP2">Wednesday, June 17 </span>
+                <span class="sentenceP3">to Israel on eligible orders over $49</span>
+                <br><br>
+                <!--Or fastest delivery Wednesday, May 13. Order within 9 hrs 12 mins-->
+                <span class="sentenceP4">Or fastest delivery </span>
+                <span class="sentenceP5">Wednesday, May 13. </span>
+                <span class="sentenceP6">Order within </span>
+                <span class="sentenceP7">9 hrs 12 mins</span>
+                <br>
+                <img class="iconOflocation" src="assets/iconOfLocation.png" alt="iconOflocationPng">
+                <span class="DeliverToIsrael-TXT">Deliver to Israel</span>
+                <br><br>
+                <span class="inStockTXT">In Stock</span>
+            </div>
+            <!--Quantity Select-->
+            <select class="quantity-select" id="quantity"> 
+                <option value="" disabled selected hidden>Quantity: 1</option>
+            </select>
+            <script>
+                const select = document.getElementById("quantity");
+
+                for(let i = 1; i <= 30; i++){
+                    const option = document.createElement("option");
+                    option.value = i;
+                    option.textContent = i;
+
+                    select.appendChild(option);
+                }
+            </script>
+            <!--buttons-->
+            <button class="add">Add to cart</button>
+            <button class="buy">Buy Now</button>
+            <br>
+        <!-- adding t table that txplain all the details-->
+            <table class = "table2details">
+                <tr>
+                    <th>Ships from</th>
+                    <td class="td1">Amazon</td>
+                </tr>
+                <tr>
+                    <th>Sold by</th>
+                    <td>AOJIANA</td>
+                </tr>
+                <tr>
+                    <th>Returns</th>
+                    <td>30-day refund /<br>replacement</td>
+                </tr>
+                <tr>
+                    <th>Payment</th>
+                    <td>Secure transaction</td>
+                </tr>
+            </table>
+            <!-- ▾ See more -->
+            <div class="chevron"></div>
+            <span class="seeMoreTXT">  See more </span>  
+            <br><br>
+            <hr>
+            <button class="AddToList">Add To List</button>
+        </article>
+    </section>
+</section>
+<!---------------------------------------------------------------------->
+<!---------------- SHOW THE RELATED PRODUCTS  -------------------------->
+<!---------------------------------------------------------------------->
+<hr>
+<section class="related-products">
+    <section class="related-header">
+        <section class="title-side">
+            <h2>Deals on related products</h2>
+            <section class="sponspred-i">
+                <div class="sponspred">Sponsored</div>
+                <div class="alert-icon">i</div>
+            </section>
+        </section>
+        <p class="page-number">Page 1 of 4</p>
+    </section>
+    <section class="products-slider">
+        <button class="arrow-btn">❮</button>
+        <!------------------------- PRODUCT1 --------------------------->
+        <article class="product-card">
+            <img src="https://m.media-amazon.com/images/I/61WvhA7igAL._AC_UF480,480_SR480,480_.jpg" alt="">
+            <a href="#" class="product-title">
+                Spigen for Galaxy S26<br>Ultra Case, Tough Armor<br>MagFit [Kickstand]<br>[Compatible with M...
+            </a>
+            <section class="rating-row">
+                <span class="stars2">★★★★★</span>
+                <span class="reviews2">48,565</span>
+            </section>
+            <div class="price1"><!--$21.99-->
+                <span class="price1-before">$</span><span class="price1-center">21</span><span class="price1-left">99</span>
+            </div>
+            <span class="primeIcon">✔</span>
+            <span class="prime">prime</span>
+        </article>
+        <!------------------------- PRODUCT2 --------------------------->
+        <article class="product-card">
+            <img src="https://m.media-amazon.com/images/I/71c8uN41UfL._AC_UF480,480_SR480,480_.jpg" alt="">
+            <a href="#" class="product-title">
+                GolbinBox Magnetic for<br>Samsung Galaxy S26<br>Ultra Case with 360°<br>Spin Stand,[Compatib...
+            </a>
+            <section class="rating-row">
+                <span class="stars2">★★★★★</span>
+                <span class="reviews2">85</span>
+            </section>
+            <div class="price1"><!--$32.99-->
+                <span class="price1-before">$</span><span class="price1-center">32</span><span class="price1-left">99</span>
+            </div>
+            <span class="primeIcon">✔</span>
+            <span class="prime">prime</span>
+        </article>
+        <!------------------------- PRODUCT3 --------------------------->
+        <article class="product-card">
+            <img src="https://m.media-amazon.com/images/I/718xagsYbZL._AC_UF480,480_SR480,480_.jpg" alt="">
+            <a href="#" class="product-title">
+                SUPCASE for Samsung<br>Galaxy S26 Ultra Case<br>with Stand, Military-<br>Grade Drop Protectio...
+            </a>
+            <section class="rating-row">
+                <span class="stars2">★★★★★</span>
+                <span class="reviews2">459</span>
+            </section>
+            <div class="price1"><!--$45.99-->
+                <span class="price1-before">$</span><span class="price1-center">45</span><span class="price1-left">99</span>
+            </div>
+            <span class="primeIcon">✔</span>
+            <span class="prime">prime</span>
+        </article>
+        <!------------------------- PRODUCT4 --------------------------->
+        <article class="product-card">
+            <img src="https://m.media-amazon.com/images/I/71WCXsD00xL._AC_UF480,480_SR480,480_.jpg" alt="">
+            <a href="#" class="product-title">
+                for Samsung Galaxy S26<br>Ultra Case,Slim Design<br>Compatible with<br>MagSafe,Strong...
+            </a>
+            <section class="rating-row">
+                <span class="stars2">★★★★★</span>
+                <span class="reviews2">27</span>
+            </section>
+            <div class="price1"><!--$24.29-->
+                <span class="price1-before">$</span><span class="price1-center">24</span><span class="price1-left">29</span>
+            </div>
+            <span class="primeIcon">✔</span>
+            <span class="prime">prime</span>
+        </article>
+        <!------------------------- PRODUCT5 --------------------------->
+        <article class="product-card">
+            <img src="https://m.media-amazon.com/images/I/71nZCfLoI4L._AC_UF480,480_SR480,480_.jpg" alt="">
+            <a href="#" class="product-title">
+                CASEKOO Cobalt Violet<br>for Samsung Galaxy S26<br>Ultra Case with 360 Spin<br>Magnetic Stan...
+            </a>
+            <section class="rating-row">
+                <span class="stars2">★★★★★</span>
+                <span class="reviews2">1271</span>
+            </section>
+            <div class="price1"><!--$42.99-->
+                <span class="price1-before">$</span><span class="price1-center">42</span><span class="price1-left">99</span>
+            </div>
+            <span class="primeIcon">✔</span>
+            <span class="prime">prime</span>
+        </article>
+        <!------------------------- PRODUCT6 --------------------------->
+        <article class="product-card">
+            <img src="https://m.media-amazon.com/images/I/711kVj4qukL._AC_UF480,480_SR480,480_.jpg" alt="">
+            <a href="#" class="product-title">
+                DEERLAMN Strong<br>Magnetic Case for<br>Samsung Galaxy S26<br>Ultra 6.9-Inch...
+            </a>
+            <section class="rating-row">
+                <span class="stars2">★★★★★</span>
+                <span class="reviews2">601</span>
+            </section>
+            <div class="price1"><!--$17.99-->
+                <span class="price1-before">$</span><span class="price1-center">17</span><span class="price1-left">99</span>
+            </div>
+            <span class="primeIcon">✔</span>
+            <span class="prime">prime</span>
+        </article>
+        <button class="arrow-btn">❯</button>
+    </section>
+    <br>
+    <hr>
+</section>
+<!---------------------------------------------------------------------->
+<!--------------------- 4 stars and above ------------------------------>
+<!---------------------------------------------------------------------->
+<!-----another section that shows the "4 stars and above products" ----->
+<!------the section have all the attributes like the section above ----->
+<section class="related-products">
+    <section class="related-header">
+        <section class="title-side">
+            <h2>4 stars and above</h2>
+            <section class="sponspred-i">
+                <div class="sponspred">Sponsored</div>
+                <div class="alert-icon">i</div>
+            </section>
+        </section>
+        <p class="page-number">Page 1 of 55</p>
+    </section>
+    <section class="products-slider">
+        <button class="arrow-btn">❮</button>
+        <!------------------------- PRODUCT1 --------------------------->
+        <article class="product-card">
+            <img src="https://m.media-amazon.com/images/I/61bvHwwJReL._AC_UF480,480_SR480,480_.jpg" alt="">
+            <a href="#" class="product-title">
+                Aropuktek for S26-Ultra<br>Case: Strong Magnetic<br>Compatible with<br>MagSafe for S26 Ultra...
+            </a>
+            <section class="rating-row">
+                <span class="stars2">★★★★★</span>
+                <span class="reviews2">216</span>
+            </section>
+            <div class="price1"><!--$12.99-->
+                <span class="price1-before">$</span><span class="price1-center">12</span><span class="price1-left">99</span>
+            </div>
+            <span class="primeIcon">✔</span>
+            <span class="prime">prime</span>
+        </article>
+        <!------------------------- PRODUCT2 --------------------------->
+        <article class="product-card">
+            <img src="https://m.media-amazon.com/images/I/71x9QjM8YuL._AC_UF480,480_SR480,480_.jpg" alt="">
+            <a href="#" class="product-title">
+                Janmitta Compatible<br>with Samsung Galaxy<br>S26 Ultra Case Built in<br>Slide Camera Lens...
+            </a>
+            <section class="rating-row">
+                <span class="stars2">★★★★★</span>
+                <span class="reviews2">4544</span>
+            </section>
+            <div class="price1"><!--$15.99-->
+                <span class="price1-before">$</span><span class="price1-center">15</span><span class="price1-left">99</span>
+            </div>
+            <span class="primeIcon">✔</span>
+            <span class="prime">prime</span>
+        </article>
+        <!------------------------- PRODUCT3 --------------------------->
+        <article class="product-card">
+            <img src="https://m.media-amazon.com/images/I/71mp2WEh01L._AC_UF480,480_SR480,480_.jpg" alt="">
+            <a href="#" class="product-title">
+                BENKS S26 Ultra Case,<br>ArmorAir Case for<br>Samsung Galaxy S26<br>Ultra Compatible with...
+            </a>
+            <section class="rating-row">
+                <span class="stars2">★★★★★</span>
+                <span class="reviews2">149</span>
+            </section>
+            <div class="price1"><!--$49.99-->
+                <span class="price1-before">$</span><span class="price1-center">49</span><span class="price1-left">99</span>
+            </div>
+            <span class="primeIcon">✔</span>
+            <span class="prime">prime</span>
+        </article>
+        <!------------------------- PRODUCT4 --------------------------->
+        <article class="product-card">
+            <img src="https://m.media-amazon.com/images/I/81CTUQPmcIL._AC_UF480,480_SR480,480_.jpg" alt="">
+            <a href="#" class="product-title">
+                pitaka for S26 Ultra<br>Case, 6.9 Inch,<br>Compatible with<br>MagSafe, Ultra-Slim...
+            </a>
+            <section class="rating-row">
+                <span class="stars2">★★★★★</span>
+                <span class="reviews2">1259</span>
+            </section>
+            <div class="price1"><!--$59.99-->
+                <span class="price1-before">$</span><span class="price1-center">59</span><span class="price1-left">99</span>
+            </div>
+            <span class="primeIcon">✔</span>
+            <span class="prime">prime</span>
+        </article>
+        <!------------------------- PRODUCT5 --------------------------->
+        <article class="product-card">
+            <img src="https://m.media-amazon.com/images/I/71fgFPbC05L._AC_UF480,480_SR480,480_.jpg" alt="">
+            <a href="#" class="product-title">
+                Ntwinro Magnetic for<br>Samsung Galaxy S26<br>Ultra Case with Wallet,<br>RFID Slim Card Hold...
+            </a>
+            <section class="rating-row">
+                <span class="stars2">★★★★★</span>
+                <span class="reviews2">313</span>
+            </section>
+            <div class="price1"><!--$24.99-->
+                <span class="price1-before">$</span><span class="price1-center">24</span><span class="price1-left">99</span>
+            </div>
+            <span class="primeIcon">✔</span>
+            <span class="prime">prime</span>
+        </article>
+        <!------------------------- PRODUCT6 --------------------------->
+        <article class="product-card">
+            <img src="https://m.media-amazon.com/images/I/61XVmVKE6AL._AC_UF480,480_SR480,480_.jpg" alt="">
+            <a href="#" class="product-title">
+                Magnetic for Samsung<br>Galaxy S26 Ultra Case,<br>[1:1 Metal Original Grip]<br>Fit for MagSafe...
+            </a>
+            <section class="rating-row">
+                <span class="stars2">★★★★★</span>
+                <span class="reviews2">88</span>
+            </section>
+            <div class="price1"><!--$22.99-->
+                <span class="price1-before">$</span><span class="price1-center">22</span><span class="price1-left">99</span>
+            </div>
+            <span class="primeIcon">✔</span>
+            <span class="prime">prime</span>
+        </article>
+        <button class="arrow-btn">❯</button>
+    </section>
+    <br>
+    <hr>
+</section>
+<!---------------------------------------------------------------------->
+<!------------------------- BACK TO TOP -------------------------------->
+<!---------------------------------------------------------------------->
+<section class="backToTop">
+        <a href="#top">Back to top</a>
+</section>
+</main>
+<!---------------------------------------------------------------------->
+<!--------------------- Footer Of the Page ----------------------------->
+<!---------------------------------------------------------------------->
+<footer class="footer">
+    <section class="footer-container">
+        <!-- column -->
+        <section class="footer-column">
+            <h4>Get to Know Us</h4>
+            <a href="#">Careers</a>
+            <a href="#">Blog</a>
+            <a href="#">About Amazon</a>
+            <a href="#">Investor Relations</a>
+            <a href="#">Amazon Devices</a>
+            <a href="#">Amazon Science</a>
+        </section>
+        <!-- column -->
+        <section class="footer-column">
+            <h4>Make Money with Us</h4>
+            <a href="#">Sell products on Amazon</a>
+            <a href="#">Sell on Amazon Business</a>
+            <a href="#">Sell apps on Amazon</a>
+            <a href="#">Become an Affiliate</a>
+            <a href="#">Advertise Your Products</a>
+            <a href="#">Self-Publish with Us</a>
+            <a href="#">Host an Amazon Hub</a>
+            <a href="#">› See More Make Money with Us</a>
+        </section>
+        <!-- column -->
+        <section class="footer-column">
+            <h4>Amazon Payment Products</h4>
+            <a href="#">Amazon Business Card</a>
+            <a href="#">Shop with Points</a>
+            <a href="#">Reload Your Balance</a>
+            <a href="#">Amazon Currency Converter</a>
+        </section>
+        <!-- column -->
+        <section class="footer-column">
+            <h4>Let Us Help You</h4>
+            <a href="#">Amazon and COVID-19</a>
+            <a href="#">Your Account</a>
+            <a href="#">Your Orders</a>
+            <a href="#">Shipping Rates & Policies</a>
+            <a href="#">Returns & Replacements</a>
+            <a href="#">Manage Your Content and Devices</a>
+            <a href="#">Israel Legal Settlement</a>
+            <a href="#">Help</a>
+        </section>
+    </section>
+</footer>
+</body>
+</html>

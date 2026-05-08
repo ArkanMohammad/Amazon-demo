@@ -1,0 +1,126 @@
+/*---------------------------------------------------------------------*/
+/*-------------------- RIGHT SIDE OF GRID -----------------------------*/
+/*---------------------------------------------------------------------*/
+.buy-box {
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 8px;
+  height: fit-content;
+}
+.buy-box .priceProduct {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+.sentenceP1,.sentenceP3,.sentenceP4,.sentenceP6{
+  color: black;
+  font-size: 14px;
+  padding: 5px 0;
+}
+.sentenceP2, .sentenceP5{
+  color:black;
+  font-size: 14px;
+  font-weight: bold;
+}
+.sentenceP7{
+  color: #1f7537;
+  font-size: 14px;
+  padding: 5px 0;
+}
+.iconOflocation{
+  width:16px;
+  height: 22px;
+  margin-top: 5px;
+}
+.DeliverToIsrael-TXT{
+  width:120;
+  color:#3c6587;
+  cursor: pointer;
+  font-size: 12px;
+  vertical-align: super;
+}
+.DeliverToIsrael-TXT:hover{
+  color : #223b4f;
+  transition: color 0.3s ease; 
+}
+.inStockTXT{
+  color: #1f7537;
+  font-size: 18px;
+}
+.newTXT{
+  color: #565959;
+  font-size: 14px;
+  padding: 5px 0;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.quantity-select{
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid #999;
+    padding-left: 12px;
+    font-size: 14px;
+    background-color: white;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.add {
+  background: #ffd814;
+  font-size: 14px;
+}
+.buy {
+  background: #ffa41c;
+  font-size: 14px;
+}
+/*---------------- adding t table that txplain all the details---------*/
+.table2details{
+    border-collapse: collapse;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 12px;
+    gap:5px;
+}
+.table2details th{
+    text-align: left;
+    padding: 8px 30px 8px 0;
+    color:#83786b;
+    vertical-align: top;
+    font-weight: normal;
+}
+.table2details td{
+    padding: 8px 0;
+    color:#416384;
+}
+.table2details .td1{
+  color:black;
+}
+.table2details td:hover,.seeMoreTXT:hover{
+  color : #223b4f;
+  transition: color 0.3s ease; 
+}
+.seeMoreTXT{
+  color: #416384;
+  font-size: 12px;
+  cursor: pointer;
+}
+hr{
+  border: none;
+   border-top: 1px solid #cfcfcf;
+}
+.AddToList{
+  width: 100%;
+  height: 35px;
+  margin-top: 8px;
+  border-radius: 10px;
+  text-align: left;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid black;
+  font-size: 14px;
+}

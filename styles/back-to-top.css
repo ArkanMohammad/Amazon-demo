@@ -1,0 +1,23 @@
+/*Back to top section */
+html {
+    scroll-behavior: smooth;
+}
+.backToTop{
+    background-color: #364758;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.backToTop a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+}
+.backToTop:hover {
+    background-color: #627f9b;
+}
