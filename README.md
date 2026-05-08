@@ -64,36 +64,7 @@ Built to demonstrate **advanced frontend layout mastery**, component-based CSS a
 
 ## 📸 UI Showcase
 
-<table>
-  <tr>
-    <th>🖥️ Header & Product Gallery</th>
-    <th>🖥️ Product Info & Buy Box</th>
-  </tr>
-
-  <tr>
-    <td>
-      <img src="https://github.com/ArkanMohammad/Amazon-demo/blob/main/assets/desktop-preview1.png?raw=true" width="350">
-    </td>
-
-    <td>
-      <img src="https://github.com/ArkanMohammad/Amazon-demo/blob/main/assets/desktop-preview2.png?raw=true" width="350">
-    </td>
-  </tr>
-</table>
-
-<br>
-
-<table>
-  <tr>
-    <th>🛒 Related Products Section</th>
-  </tr>
-
-  <tr>
-    <td align="center">
-      <img src="https://github.com/ArkanMohammad/Amazon-demo/blob/main/assets/related-products.png?raw=true" width="500">
-    </td>
-  </tr>
-</table>
+<table> <tr> <th>🖥️ Header & Product Gallery</th> <th>🖥️ Product Info & Buy Box</th> </tr> <tr> <td> <img src="https://github.com/ArkanMohammad/Amazon-demo/blob/main/assets/desktop-preview1.png?raw=true" width="350"> </td>
 ---
 
 ## 🚀 Performance Metrics
