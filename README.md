@@ -33,24 +33,25 @@ Built to demonstrate **advanced frontend layout mastery**, component-based CSS a
 
 ---
 
-## 🛠️ Project Structure
-📁 Amazon-demo/
-├── 📄 index.html # Semantic HTML5 master layout
-├── 📁 styles/ # Modular CSS architecture
-│ ├── header.css # Navigation, search, cart, account menu
-│ ├── ads-banner.css # Promotional banner component
-│ ├── product-page.css # Main product grid layout
-│ ├── product-left-details.css # Image gallery & thumbnails
-│ ├── product-center-details.css # Title, rating, specs, description
-│ ├── product-right-details.css # Buy-box, pricing, quantity, actions
-│ ├── related-products.css # Carousel & product cards
-│ ├── back-to-top.css # Scroll-to-top utility
-│ └── footer.css # Multi-column footer links
-├── 📁 assets/ # Optimized images, icons, logos
-└── 📝 README.md # Project documentation
+## 🗂️ Project Structure
+
+```text
+ Amazon-demo/
+├── 📄 index.html                 # Semantic HTML5 master layout
+├── 📁 styles/                    # Modular CSS architecture
+│   ├── header.css                # Navigation, search, cart, account menu
+│   ├── ads-banner.css            # Promotional banner component
+│   ├── product-page.css          # Main product grid layout
+│   ├── product-left-details.css  # Image gallery & thumbnails
+│   ├── product-center-details.css # Title, rating, specs, description
+│   ├── product-right-details.css # Buy-box, pricing, quantity, actions
+│   ├── related-products.css      # Carousel & product cards
+│   ├── back-to-top.css           # Scroll-to-top utility
+│   └── footer.css                # Multi-column footer links
+├──  assets/                    # Optimized images, icons, logos
+└── 📝 README.md                  # Project documentation
 
 ---
-
 
 **CSS Methodology Applied:**
 - ✅ **Component-Based Organization**: One stylesheet per UI section for maintainability
@@ -63,9 +64,9 @@ Built to demonstrate **advanced frontend layout mastery**, component-based CSS a
 
 ## 📸 UI Showcase
 
-| 🖥️ Desktop View | 📱 Mobile View |
+| 🖥️ Desktop View | 
 |:--------------:|:-------------:|
-| ![Desktop](assets/desktop-preview.png) | ![Mobile](assets/mobile-preview.png) |
+| ![Desktop](assets/desktop-preview.png) |
 
 | 🔍 Component Highlights |
 |:----------------------:|
