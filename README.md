@@ -65,17 +65,17 @@ Built to demonstrate **advanced frontend layout mastery**, component-based CSS a
 ## 📸 UI Showcase
 
 ### 🖥️ Header & Product Gallery
-<img src="./assets/desktop-preview1.png" width="700"/>
+<img src="./assets/desktop-preview1.png" width="500"/>
 
 ---
 
 ### 🖥️ Product Info & Buy Box
-<img src="./assets/desktop-preview2.png" width="700"/>
+<img src="./assets/desktop-preview2.png" width="500"/>
 
 ---
 
 ### 🛒 Related Products Section
-<img src="./assets/related-products.png" width="700"/>
+<img src="./assets/related-products.png" width="500"/>
 
 ---
 
