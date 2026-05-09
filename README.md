@@ -66,6 +66,8 @@ Built to demonstrate **advanced frontend layout mastery**, component-based CSS a
 
 ### 🖥️ Header & Product Gallery
 <img src="./assets/desktop-preview1.png" width="500"/>
+![Alt Text](./assets/desktop-preview1.png)
+
 
 ---
 
